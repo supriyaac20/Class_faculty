@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "94461839799",
+    "firebase_url": "https://class-e-42116.firebaseio.com",
+    "project_id": "class-e-42116",
+    "storage_bucket": "class-e-42116.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:94461839799:android:c2299310d12883f2",
+        "android_client_info": {
+          "package_name": "com.example.supriya_pc.class_faculty"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "94461839799-v9vmbidbmmte50fiif28bm7hcc1irpmu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBv7sVRF2C9Dl6ahX85D9xR_VDXmALpFhE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

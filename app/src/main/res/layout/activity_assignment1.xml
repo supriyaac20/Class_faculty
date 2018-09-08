@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Assignment1"
+    android:orientation="vertical">
+
+    <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/sub"
+        android:hint="Select subject"
+        android:layout_marginTop="40dp"/>
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="200dp">
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorbutton"
+            android:text="Upload"
+            android:layout_marginLeft="120dp"
+            android:textColor="#FFF"
+            android:textSize="18dp"
+            android:layout_marginTop="150dp"
+            android:id="@+id/uploadid"/>
+
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorbutton"
+            android:layout_marginLeft="10dp"
+            android:textColor="#FFF"
+            android:textSize="18dp"
+            android:layout_marginTop="150dp"
+            android:text="Evaluate"
+            android:id="@+id/evaluateid"/>
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+
+</LinearLayout>

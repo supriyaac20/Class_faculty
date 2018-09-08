@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Class1"
+    android:orientation="vertical">
+
+
+    <Button
+        android:layout_width="220dp"
+        android:textSize="18dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorbutton"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:textColor="#FFF"
+        android:text="Daily attendence"
+        android:id="@+id/dailybtn"/>
+
+    <Button
+        android:layout_width="220dp"
+        android:textSize="18dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@color/colorbutton"
+        android:textColor="#FFF"
+        android:layout_gravity="center_horizontal"
+        android:text="Hourly attendence"
+        android:id="@+id/hourlybtn"/>
+
+</LinearLayout>

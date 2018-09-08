@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registration"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:inputType="textPersonName"
+        android:layout_marginTop="10dp"
+        android:hint="Name :"
+        android:id="@+id/nameid"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:inputType="number"
+        android:layout_marginTop="10dp"
+        android:hint="Code :"
+        android:id="@+id/codeid" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:inputType="textPostalAddress"
+        android:layout_marginTop="10dp"
+        android:hint="Address :"
+        android:id="@+id/addressid"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:layout_marginTop="10dp"
+        android:inputType="textEmailAddress"
+        android:hint="Email :"
+        android:id="@+id/emailid"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:inputType="phone"
+        android:layout_marginTop="10dp"
+        android:hint="Phone :"
+        android:id="@+id/phoneid"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textid"
+        android:text="All communication for this product will be sent to this email id or phone number"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:layout_marginTop="10dp"
+        android:inputType="textPersonName"
+        android:hint="Accredation"
+        android:id="@+id/accredationid"/>
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/camera"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="8dp"
+        android:id="@+id/cameraid"
+
+        />
+
+        <EditText
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:inputType="none"
+            android:hint="Select Logo"
+            android:layout_marginTop="25dp"
+            android:id="@+id/logoid"
+            />
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textSize="18dp"
+        android:textColor="#FFF"
+        android:background="@color/colorbutton"
+        android:layout_marginLeft="280dp"
+        android:id="@+id/submitid"/>
+    
+
+</LinearLayout>

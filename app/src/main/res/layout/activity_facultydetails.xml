@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Facultydetails"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/camera"
+        android:id="@+id/cameraid"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:id="@+id/uploadid"
+        android:layout_gravity="center_horizontal"
+        android:text="Upload profile"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Qualification"
+        android:id="@+id/qualificationid"
+        android:layout_marginTop="20dp"
+        android:inputType="text"
+        android:textSize="18dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Experience"
+        android:id="@+id/experienceid"
+        android:layout_marginTop="20dp"
+        android:inputType="text"
+        android:textSize="18dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="270dp"
+        android:text="Save"
+        android:id="@+id/savebtn"
+        android:textSize="18dp"
+        android:textColor="#FFF"
+        android:background="@color/colorbutton"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Notes"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="220dp"
+        android:textSize="18dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorbutton"
+        android:text="Class 1"
+        android:textColor="#FFF"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:id="@+id/cls1notesid"/>
+
+    <Button
+        android:layout_width="220dp"
+        android:textSize="18dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorbutton"
+        android:textColor="#FFF"
+        android:text="Class 2"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"/>
+    <Button
+        android:layout_width="220dp"
+        android:textSize="18dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorbutton"
+        android:text="Class 3"
+        android:textColor="#FFF"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"/>
+
+    <Button
+        android:layout_width="220dp"
+        android:textSize="18dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorbutton"
+        android:text="Class 4"
+        android:textColor="#FFF"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"/>
+
+</LinearLayout>
